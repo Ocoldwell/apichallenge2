@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/apichallenge2/static/css/main.2c0e6225.chunk.css",
+    "main.js": "/apichallenge2/static/js/main.faf70f22.chunk.js",
+    "main.js.map": "/apichallenge2/static/js/main.faf70f22.chunk.js.map",
+    "runtime-main.js": "/apichallenge2/static/js/runtime-main.89938af7.js",
+    "runtime-main.js.map": "/apichallenge2/static/js/runtime-main.89938af7.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/apichallenge2/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9ad29a9b.chunk.js": "/apichallenge2/static/js/2.9ad29a9b.chunk.js",
+    "static/js/2.9ad29a9b.chunk.js.map": "/apichallenge2/static/js/2.9ad29a9b.chunk.js.map",
+    "static/js/3.d57bf9bd.chunk.js": "/apichallenge2/static/js/3.d57bf9bd.chunk.js",
+    "static/js/3.d57bf9bd.chunk.js.map": "/apichallenge2/static/js/3.d57bf9bd.chunk.js.map",
+    "index.html": "/apichallenge2/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/apichallenge2/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.2c0e6225.chunk.css.map": "/apichallenge2/static/css/main.2c0e6225.chunk.css.map",
+    "static/js/2.9ad29a9b.chunk.js.LICENSE.txt": "/apichallenge2/static/js/2.9ad29a9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89938af7.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9ad29a9b.chunk.js",
+    "static/css/main.2c0e6225.chunk.css",
+    "static/js/main.faf70f22.chunk.js"
+  ]
+}

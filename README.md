@@ -52,9 +52,7 @@ const getDeals = () => {
 
 ```
 
-## How to Use
 
-Run
 
 ## Contributions
 

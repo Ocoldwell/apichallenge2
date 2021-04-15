@@ -1,0 +1,27 @@
+.Card {
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background: rgba(128, 195, 240, 0.719);
+  .content__card {
+    margin: 10px;
+  }
+
+  .text {
+    margin: 10px;
+    color: #D1603D;
+  }
+  img {
+   height: 120px;
+   width: auto;
+  }
+  
+}
+.card__body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -33,17 +33,18 @@ const Login = () => {
     })
   return (
     <Container>
+    <h1>Welcome to ollies login form</h1>
       <Form className="form" onSubmit={handleSubmit(onSubmit)} >
       <Col>
         <FormGroup>
           <Label>Email</Label>
-          <Input name="email" ref={register({ required: true })} />
+          <Input name="email" innerRef={register({ required: true })} />
         </FormGroup>
       </Col>
       <Col>
         <FormGroup>
           <Label>Password</Label>
-          <Input name="password" ref={register({ required: true })} />
+          <Input name="password" innerRef={register({ required: true })} />
         </FormGroup>
       </Col>
         <Button name="submit" type="submit" >Log In</Button>

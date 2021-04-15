@@ -35,7 +35,7 @@ Styling needs work and additional features discussed above to be implemented:
 
 ## Features
 
-The main functionality of querying the API is the main functionality which is stored into state and is called on mount of pages using useEffect.
+The main functionality of querying the API which is stored into state and is called on mount of pages using useEffect.
 
 ```React
 

@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
-import Card from "../../components/Card/Card.jsx";
+import GameCard from "../../components/GameCard/GameCard";
 import styles from "./CardList.module.scss";
 import { DealContext } from "../../context/DealProvider.js";
 
-const CardList = (props) => {
+const CardList = () => {
   const { deals, searchResults } = useContext(DealContext);
  
 
   const getCard = (gameDeal) => (
     <div key={gameDeal.dealID}>
-      <Card gameDeal={gameDeal} />
+      <GameCard gameDeal={gameDeal} />
     </div>
   );
 

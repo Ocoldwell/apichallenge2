@@ -31,7 +31,7 @@ const Register = () => {
               name="email"
               placeholder="email"
               type="email"
-              ref={register}
+              innerRef={register}
             />
           </FormGroup>
         </Col>
@@ -42,7 +42,7 @@ const Register = () => {
               name="username"
               type="text"
               placeholder="username"
-              ref={register({ required: true })}
+              innerRef={register({ required: true })}
             />
             {errors.username && <span>This field is required</span>}
           </FormGroup>
@@ -54,7 +54,7 @@ const Register = () => {
               name="name"
               type="text"
               placeholder="name"
-              ref={register({ required: true })}
+              innerRef={register({ required: true })}
             />
             {errors.name && <span>This field is required</span>}
           </FormGroup>
@@ -65,7 +65,7 @@ const Register = () => {
             <Input
               name="favouriteGame"
               type="text"
-              ref={register({ required: true })}
+              innerRef={register({ required: true })}
             />
             {errors.favouriteGame && <span>This field is required</span>}
           </FormGroup>

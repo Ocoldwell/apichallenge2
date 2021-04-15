@@ -21,7 +21,7 @@ const Input = () => {
   },[])
   return (
     <div className={styles.input}>
-      <form onSubmit = {handleSubmit} ref={searchForm}>
+      <form onSubmit = {handleSubmit} innerRef={searchForm}>
         <input type="text" placeholder="search for deals here" className={styles.input__box} name='searchvalue'></input>
         <button type="submit" onClick={handleClick}>Get todays best deals</button>
       </form>

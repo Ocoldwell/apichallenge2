@@ -8,7 +8,7 @@ As an extension I added firebase auth, with a mind to extend the project further
 
 ## Getting Started
 
-Either clone the repository and run in a local server or go to the page [here]()
+Either clone the repository and run in a local server or go to the page [here](https://cheapshark-api.web.app/home)
 
 ## Motivation
 

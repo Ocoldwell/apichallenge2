@@ -8,7 +8,8 @@ As an extension I added firebase auth, with a mind to extend the project further
 
 ## Getting Started
 
-Either clone the repository and run in a local server or go to the page [here](https://cheapshark-api.web.app/home)
+Either clone the repository and run in a local server or go to the page [here](https://cheapshark-api.web.app/)
+This will take you to the login page, private routing isn't in place yet but auth works and routes to home and can either register or just add /home to the url.
 
 ## Motivation
 

@@ -15,9 +15,7 @@ const GameCard = (props) => {
   const { gameDeal } = props;
   const findStoreImages = (stores) => {
     return stores.find((store) => {
-      if (store.storeID === gameDeal.storeID) {
-        return store.images;
-      }
+      return store.storeID === gameDeal.storeID ? store.images : null;
     });
   };
   console.log(findStoreImages(stores));

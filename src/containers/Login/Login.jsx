@@ -17,6 +17,10 @@ const Login = () => {
     const errorMessage= error.message;
     const email = error.email;
     const credential = error.credential;
+    console.log(errorCode);
+    console.log(errorMessage);
+    console.log(email);
+    console.log(credential);
   })
 
   const onSubmit = (form) => auth.signInWithEmailAndPassword(form.email, form.password).then((response) => {
@@ -33,7 +37,6 @@ const Login = () => {
     })
   return (
     <Container>
-    <h1>Welcome to ollies login form</h1>
       <Form className="form" onSubmit={handleSubmit(onSubmit)} >
       <Col>
         <FormGroup>

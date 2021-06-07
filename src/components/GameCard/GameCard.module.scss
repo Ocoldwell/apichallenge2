@@ -4,16 +4,15 @@
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  
   max-height: 400px;
-  width: auto;
+  width: 1fr;
   .content__card {
     margin: 10px;
   }
 
   .text {
     margin: 10px;
-    color: #D1603D;
+    color: complement($color: #007BFF)
   }
   img {
    height: 120px;

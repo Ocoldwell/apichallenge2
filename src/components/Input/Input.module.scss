@@ -1,7 +1,16 @@
 .input {
   display: flex;
   flex-direction: column;
-  .input__box{
+  height: 100%;
+  margin: 20px;
+  &__box{
     margin-bottom: 10px;
+    border-radius: 20px;
+    width: 300px;
+  }
+  &__button{
+    border-radius: 20px;
+    height: 100px;
+    background-color: fade-in(complement($color: #007BFF), $amount: 0.9);
   }
 }

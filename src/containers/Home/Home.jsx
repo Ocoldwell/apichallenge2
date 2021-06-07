@@ -10,9 +10,7 @@ const Home = () => {
   },[])
 
   return (
-    <div>
       <CardList />
-    </div>
   )
 }
 

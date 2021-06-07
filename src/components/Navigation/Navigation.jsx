@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <div>
     <Navbar color="faded" light className={styles.nav}>
-      <NavbarBrand href="/login" className="mr-auto">Game Deals</NavbarBrand>
+      <NavbarBrand href="/" className="mr-auto">Game Deals</NavbarBrand>
       <NavbarToggler onClick={toggleNavbar} className="mr-2" />
       <Collapse isOpen={!collapsed} navbar>
         <Nav navbar>

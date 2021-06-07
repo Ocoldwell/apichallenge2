@@ -5,10 +5,10 @@ import { DealContext } from '../../context/DealProvider';
 const SearchDeals = () => {
   const {searchQuery} = useContext(DealContext)
   return (
-    <div>
+    <>
       <Input />
-    {(searchQuery.length > 0) ? <CardList /> : null}
-    </div>
+      {(searchQuery.length > 0) ? <CardList /> : null}
+    </>
   )
 }
 

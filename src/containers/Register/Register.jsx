@@ -20,7 +20,6 @@ const Register = () => {
     const errorMessage = error.message;
   })
 
-  console.log(watch("email"));
   return (
     <Container className="container">
       <Form onSubmit={handleSubmit(onSubmit)} className="form">

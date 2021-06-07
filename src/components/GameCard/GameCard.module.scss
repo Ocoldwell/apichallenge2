@@ -1,10 +1,12 @@
-.Card {
+.cardWhole {
   border-radius: 10px;
   margin: 10px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  background: rgba(128, 195, 240, 0.719);
+  
+  max-height: 400px;
+  width: auto;
   .content__card {
     margin: 10px;
   }
@@ -24,4 +26,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #17a2b8;
 }

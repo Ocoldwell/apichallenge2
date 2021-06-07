@@ -1,5 +1,4 @@
 import React, {useContext, useEffect} from 'react';
-import Header from "../../components/Header";
 import CardList from "../CardList/";
 import {DealContext} from "../../context/DealProvider.js"
 
@@ -12,7 +11,6 @@ const Home = () => {
 
   return (
     <div>
-      <Header />
       <CardList />
     </div>
   )

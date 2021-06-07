@@ -1,7 +1,14 @@
 .list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   justify-self: center;
   margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .list{
+    grid-template-columns: 1fr;
+  }
+  
 }

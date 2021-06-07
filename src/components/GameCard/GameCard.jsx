@@ -18,9 +18,8 @@ const GameCard = (props) => {
       return store.storeID === gameDeal.storeID ? store.images : null;
     });
   };
-  console.log(findStoreImages(stores));
   return (
-      <Card className={styles.Card}>
+      <Card className={styles.cardWhole}>
         <CardBody className={styles.card__body}>
           <React.Fragment key={gameDeal.dealId}>
             <CardImg src={gameDeal.thumb} alt={gameDeal.title} />
@@ -34,6 +33,7 @@ const GameCard = (props) => {
             </CardTitle>
             <CardImg
               src={`${API}` + findStoreImages(stores).images.logo}
+              className={styles.card__image}
               alt="store-banner"
             />
             <CardText className={styles.text}>
